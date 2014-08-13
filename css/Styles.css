@@ -1,0 +1,295 @@
+
+.navbar-default {
+    background: #5C5956;
+}
+
+
+.navbar-collapse {
+    height: 50px;
+}
+
+.navbar-form {
+    width: 250px;
+    padding: 8px 0px 0px 0px;
+}
+
+#searchInput {
+    background: #5C5956;
+    border-color: white;
+    height: 25px;
+    width: 200px;
+    border-left: none;
+    border-right: none;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+#searchInput:hover {
+    background: white;
+}
+
+#but {
+    color: #5C5956;
+    background: #5C5956;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#social {
+    margin-right: 10px;
+}
+
+.socialIcons {
+    text-align: right;
+    height: 50px;
+    margin: 0px;
+}
+
+.socialIcons ul {
+    overflow: auto;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+ 
+.socialIcons ul li {
+    list-style-type: none;
+    height: 50px;
+    float: right;
+}
+
+.socialIcons li {
+    height: 50px;
+    margin: 0px;
+}
+.socialIcons li a {
+    margin: 0px;
+    padding: 10px 15px 0px 0px;
+}
+
+.socialIcons li a i {
+    background: #5C5956;
+    color: #fff;
+    width: 20px;
+    height: 25px;
+    border-radius: 20px;
+    border-color: #fff;
+    border-bottom-style: solid;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+#icon {
+    list-style-type: none;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    border-bottom-style: solid;
+    background: #5C5956;
+    transition: all 0.2s ease-in-out;
+}
+
+#socialIcons .fa-facebook {
+    background: #ff5000
+} 
+#socialIcons .fa-youtube {
+    background: #ff5000
+}
+#socialIcons .fa-twitter {
+    background: #ff5000
+}
+#socialIcons .google-plus {
+    background: #ff5000
+}
+
+#social li a i:hover {
+    opacity: .7;
+}
+
+#icon:hover {
+    opacity: .7;
+}
+
+
+body {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+/*Services Section
+*/
+
+#servicesHeader {
+    padding: 20px 0 20px;
+}
+
+#features {
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+#features img {
+    margin: 10px 0 20px;
+}
+
+.panel-heading {
+    border: 1px solid;
+}
+
+
+/*End of services section*/
+
+.site-footer {
+    background: #ffffff;
+/*    border-top: solid;
+    border-color: #ff5000;*/
+    margin-bottom: 0px;
+    /*padding-top: 15px;*/
+}
+
+.glyphicon-circle-arrow-up {
+    margin-top: 20px;
+    font-size: 30px;
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    color: #ff5000;
+}
+
+.col-md-6 p {
+    font-size: 11px;
+    text-align: justify;
+}
+
+.unstyle{
+    list-style: none;
+
+}
+
+.unstyle li a i {
+    background: #ffffff;
+    color: #ff5000;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #ff5000;
+    border-bottom-style: solid;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.unstyle li a i:hover {
+    background: #dcd5d5;
+}
+
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .carousel-inner > .item {
+    max-height: 500px;
+}
+
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse.in {
+    max-height: auto !important; 
+    overflow-y: visible !important;
+  }
+  .socialIcons {
+    height: auto;
+    border: 0px;
+  }
+
+.socialIcons li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
+  height: 50px;
+  margin: 0;
+}
+
+/*.carousel-inner > .item {
+    max-height: 500px;
+}
+*/
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .carousel-inner > .item {
+    max-height: 400px !important;
+}
+}
+
+@media (max-width: 479px) {
+    .carousel-inner > .item {
+    max-height: 200px !important;
+}
+
+}
+
+h3, hr {
+    color: #fff;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    min-width: 100%;
+    height: auto;
+}
+
+.carousel-inner > .item {
+    height: 700px;
+}
+
+.intro-blk {
+    background-image: url(../img/purpalt.png);
+    padding: 80px 15px 60px;
+    color: #fff;
+}
+
+.blk-header {
+    color: #e9e6df;
+    font-weight: 100;
+}
+
+.toppad {
+    padding: 15px;
+}
+
+#android {
+    padding: 60px 0px 40px;
+}
+
+.app {
+    background-image: url(../img/shattered.png);
+}
+
+
+
+.site-footer {
+    background-image: url(../img/skyline.png);
+    background-repeat: repeat-x;
+    background-position: 95px 35px;
+}
+
+.site-footer h3 {
+    color: black;
+}
+
+.ft-space {
+    padding-top: 40px;
+}
