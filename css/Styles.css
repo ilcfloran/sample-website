@@ -8,6 +8,10 @@
     height: 50px;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
 .navbar-form {
     width: 250px;
     padding: 8px 0px 0px 0px;
@@ -143,7 +147,10 @@ body {
     border: 1px solid;
 }
 
-
+#downloadBtn .btn-default{
+    background-color: #efefef;
+    width: 180px;
+}
 /*End of services section*/
 
 .site-footer {
@@ -274,8 +281,21 @@ h3, hr {
     padding: 60px 0px 40px;
 }
 
+#androidHeader {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 24px;
+    color: #000000;
+}
+
+#androidBody {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
 .app {
-    background-image: url(../img/shattered.png);
+    /*background-image: url(../img/shattered.png);*/
 }
 
 
